@@ -1,0 +1,2 @@
+\beamer@sectionintoc {1}{介质中的麦克斯韦方程组}{3}{0}{1}
+\beamer@sectionintoc {2}{麦克斯韦方程的解之一——电磁波}{4}{0}{2}

@@ -1,0 +1,67 @@
+\documentclass[10pt]{beamer} 
+%设置为 Beamer 文档类型，设置字体为 10pt，长宽比为16:9，数学字体为 serif 风格
+\usepackage[UTF8]{ctex}
+\usepackage{float}
+% Useful packages
+\usepackage{braket}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{graphicx}
+%Information to be included in the title page:
+\title[About Beamer] %optional
+{Electrodynamics Lecture 2}
+\subtitle{mathmatical knowledge and skills (continued)}
+\author % (optional, for multiple authors)
+{Yuxuan Zhang }
+\institute[VFU] % (optional)
+{
+  School of Physics \quad
+  Zhejiang University
+}
+
+\date[VLC 2021] % (optional)
+{May 13th 2023}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+    \frametitle{目录}
+    \tableofcontents
+\end{frame}
+
+\section{积分计算回顾（一）}
+\begin{frame}
+    \frametitle{积分计算回顾（一）}
+    \begin{itemize}
+        \item 二重积分 $ds = r d\theta dr$\\
+        拆成两个定积分，怎么拆？先计算一个小条带上的函数值乘以面积的和，在变化条带的位置，得到整个面积的。
+        \item 三重积分 $dV = rdrd\theta dz = r^2 sin\theta d\theta d\phi dr$
+        拆成三个定积分，先得到一个沿着轴移动的平面，平面上是二重积分，在对轴的变量进行积分。
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{积分计算回顾（一）}
+    \begin{itemize}
+       \item  积分元变换的雅克比行列式的推导 \quad 用于不同曲线坐标的标量积分元 $ds,dV$\\
+        矢量积分元——$\vec{dl},\vec{ds}$  在曲线坐标上三个方向的分量怎么写？     
+        \item 第一类曲线积分，怎么寻找？法向量$\vec{n}$垂直于平面内任意曲线在这一点的切线方向，可以用两个特殊的曲线（与$x=x_0$或$y=y_0$的两条交线）叉乘得到法向方向。
+    \end{itemize}
+\end{frame}
+
+\section{Kronecker $\delta$ 和 levi-civita 符号}
+\begin{frame}
+    \frametitle{ Kronecker $\delta$ 和 levi-civita 符号}
+    \begin{itemize}
+        \item 爱因斯坦求和规则 \quad $\delta_{ij}$对指标的缩并
+        \item 排列的奇偶性 应用到$\epsilon_{ijk}$的“全反对称”性上
+        \item 一个易错点：单项式内同一个指标最多出现两次。\quad 注意检查等式左右两边剩余的指标的一致性
+        \item $\epsilon_{ijk} \epsilon_{ilm} = \delta_{jl}\delta_{km} - \delta_{jm}\delta_{kl}$ \quad 
+        \item 应用 $\vec{A} \cdot \vec{B} $ \quad $(\vec{A}\times \vec{B})_i$ \quad $\nabla \cdot (\nabla \times \vec{A}) \equiv 0$
+        \item 进一步的应用  $\star \star \quad \nabla \times (\nabla \times \vec{A}) = \nabla (\nabla\cdot \vec{A}) - \nabla^2 \vec{A}$ \\
+注意这里定义了矢量的拉普拉斯$\Delta \vec{A} = \nabla^2 \vec{A}$
+    \end{itemize}
+\end{frame}
+
+\end{document}

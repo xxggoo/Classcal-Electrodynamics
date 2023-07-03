@@ -1,0 +1,63 @@
+\documentclass[10pt]{beamer} 
+%设置为 Beamer 文档类型，设置字体为 10pt，长宽比为16:9，数学字体为 serif 风格
+\usepackage[UTF8]{ctex}
+\usepackage{float}
+% Useful packages
+\usepackage{braket}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{graphicx}
+%Information to be included in the title page:
+\title[About Beamer] %optional
+{Electrodynamics Lecture 4}
+\subtitle{Static electric field (1) }
+\author % (optional, for multiple authors)
+{Yuxuan Zhang }
+\institute[VFU] % (optional)
+{
+  School of Physics \quad
+  Zhejiang University
+}
+
+\date[VLC 2021] % (optional)
+{May 20th 2023}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+    \frametitle{目录}
+    \tableofcontents
+\end{frame}
+
+\section{张量的概述（一）}
+\begin{frame}
+    \frametitle{张量的概述（一）}
+    坐标变换-参考系变换可以被看做等价的内容，坐标变换中物理量变换的规律是我们关注的内容。
+    \begin{itemize}
+        \item $dx^i$ \quad $\partial_i$ \quad  $g_{i,j}$
+        \item 反函数组的偏导数 满足的公式 $dx^i = \frac{\partial x^i}{\partial q^j}dq^j \quad \frac{\partial q^j}{\partial x^i}dx^i = dq^j $
+        \\ $\frac{\partial x^i}{\partial q^j} \frac{\partial q^j}{\partial x^l} =\frac{\partial x^i}{\partial x^l} =\delta^i_l$
+        \item 利用上面的内容定义协变矢量，从$dx_i$开始，矢量由于逆变和协变分为两种，也有其他满足更加复杂的变化规律的物理量，即更加高阶的张量
+    \end{itemize}
+\end{frame}
+
+\section{静电场高斯定理的应用}
+\begin{frame}
+    \frametitle{高斯定理的应用}
+    几种情况：点电荷、无限长带电直线、带电球体、无限大带电平面等
+\end{frame}
+
+\section{静电场的能量}
+\begin{frame}
+    \frametitle{静电场的能量}
+    \begin{itemize}
+
+    \item 补充一下“宏观微观”的问题\\
+    \item 点电荷系统的能量 两个公式$W = \Sigma_{i< j} \frac{q_iq_j} {4\pi \epsilon_0 r_{ij}} $ 
+    $w = \Sigma_i \frac{1}{2} q_i U_i = \Sigma_{i} \frac{1}{2} q_i \left( \Sigma_{j\neq i} \frac{q_j}{4\pi \epsilon_0 r_{ij}} \right) $ 
+    \item 连续系统的电荷的能量
+    \end{itemize}
+\end{frame}
+
+\end{document}

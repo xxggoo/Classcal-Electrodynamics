@@ -1,0 +1,78 @@
+\documentclass[10pt]{beamer} 
+%设置为 Beamer 文档类型，设置字体为 10pt，长宽比为16:9，数学字体为 serif 风格
+\usepackage[UTF8]{ctex}
+\usepackage{float}
+% Useful packages
+\usepackage{braket}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{graphicx}
+%Information to be included in the title page:
+\title[About Beamer] %optional
+{Electrodynamics Lecture 3}
+\subtitle{mathmatical knowledge and skills (continued)}
+\author % (optional, for multiple authors)
+{Yuxuan Zhang }
+\institute[VFU] % (optional)
+{
+  School of Physics \quad
+  Zhejiang University
+}
+
+\date[VLC 2021] % (optional)
+{May 16th 2023}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+    \frametitle{目录}
+    \tableofcontents
+\end{frame}
+
+\section{$\epsilon\; $和$\; \delta$ 的公式}
+\begin{frame}
+    \frametitle{$\epsilon\; $和$\; \delta$ 的公式}
+    伪指标
+    \begin{itemize}
+    \item  $\epsilon_{imn} \epsilon_{jmn} = 2\delta_{ij}$ \quad $\epsilon_{ijk}\epsilon_{ijk} = 6$
+    \item $\vec{A} \times (\vec{B} \times \vec{C} ) $
+    \item $\nabla \times (\vec{A} \times \vec{B})$
+    \item $\star \star \quad \nabla \times (\nabla \times \vec{A}) = \nabla (\nabla\cdot \vec{A}) - \nabla^2 \vec{A}$ 
+    \end{itemize}
+
+\end{frame}
+
+\section{积分计算回顾（二）}
+\begin{frame}
+    \frametitle{积分计算回顾（二）}
+    \begin{itemize}
+    \item 第二类曲线积分——化为第一类曲线积分
+    \item 第二类曲面积分——化为第一类曲面积分
+    \end{itemize}
+\end{frame}
+
+\section{微分积分定理}
+\begin{frame}
+  \frametitle{积分微分定理}
+  \begin{itemize}
+      \item 高斯定理\quad 如果 $\nabla \cdot \vec{A} = 0$  第二类曲面积分 $\rightarrow$通量
+      \item 斯托克斯定理 \quad 如果$\nabla \times \vec{A} = 0 $ \quad 第二类曲线积分
+  \end{itemize}
+\end{frame}
+
+\section{$\delta \; $ function }
+\begin{frame}
+    \frametitle{$\delta \; $function}
+    \begin{itemize}
+        \item $\int \delta(x-a) f(x) dx = f(a)$
+        \item 阶跃函数 $\int_{-\infty}^x dt \delta(t) = \theta(x) $
+        \item $\delta(g(x)) = \Sigma_i \frac{1}{|g^\prime(x_i)|}\delta(x) $\\
+        例：$\int_0^{+\infty} e^{-2x} \delta({cos x e^{-x}})dx = \frac{e^{\pi/2}}{e^\pi-1}$
+        \item $\nabla \cdot \left( \frac{\vec{e_r}}{r^2}\right) = 4\pi \delta (\vec{0})$
+    \end{itemize}
+\end{frame}
+
+
+
+\end{document}

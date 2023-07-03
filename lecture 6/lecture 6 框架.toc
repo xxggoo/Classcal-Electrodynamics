@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{上一次课程内容补充}{3}{0}{1}
+\beamer@sectionintoc {2}{分离变量法解拉普拉斯方程}{4}{0}{2}
+\beamer@sectionintoc {3}{静电场的多级展开}{5}{0}{3}
+\beamer@sectionintoc {4}{电荷在磁场中的受力}{6}{0}{4}

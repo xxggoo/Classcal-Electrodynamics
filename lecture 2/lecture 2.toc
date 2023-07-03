@@ -1,0 +1,2 @@
+\beamer@sectionintoc {1}{积分计算回顾（一）}{3}{0}{1}
+\beamer@sectionintoc {2}{Kronecker $\delta $ 和 levi-civita 符号}{5}{0}{2}

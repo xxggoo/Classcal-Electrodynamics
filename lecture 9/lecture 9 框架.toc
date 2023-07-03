@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{磁感应强度的计算}{3}{0}{1}
+\beamer@sectionintoc {2}{磁场的散度——磁矢势}{4}{0}{2}
+\beamer@sectionintoc {3}{电磁感应}{5}{0}{3}
+\beamer@sectionintoc {4}{麦克斯韦方程组}{6}{0}{4}
+\beamer@sectionintoc {5}{静磁场的边界条件}{7}{0}{5}

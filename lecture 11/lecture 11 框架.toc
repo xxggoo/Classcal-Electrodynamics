@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{物质中的磁场}{3}{0}{1}
+\beamer@sectionintoc {2}{静磁场的能量}{4}{0}{2}
+\beamer@sectionintoc {3}{介质中的麦克斯韦方程组}{5}{0}{3}
+\beamer@sectionintoc {4}{电磁场的能量和能流}{6}{0}{4}
+\beamer@sectionintoc {5}{狭义相对论中的电磁部分}{7}{0}{5}

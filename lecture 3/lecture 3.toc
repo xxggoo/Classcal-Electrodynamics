@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{$\epsilon \tmspace +\thickmuskip {.2777em} $和$\tmspace +\thickmuskip {.2777em} \delta $ 的公式}{3}{0}{1}
+\beamer@sectionintoc {2}{积分计算回顾（二）}{4}{0}{2}
+\beamer@sectionintoc {3}{微分积分定理}{5}{0}{3}
+\beamer@sectionintoc {4}{$\delta \tmspace +\thickmuskip {.2777em} $ function }{6}{0}{4}

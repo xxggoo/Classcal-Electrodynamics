@@ -1,0 +1,72 @@
+\documentclass[10pt]{beamer} 
+%设置为 Beamer 文档类型，设置字体为 10pt，长宽比为16:9，数学字体为 serif 风格
+\usepackage[UTF8]{ctex}
+
+\usepackage{float}
+% Useful packages
+\usepackage{braket}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{graphicx}
+%Information to be included in the title page:
+\title[About Beamer] %optional
+{Electrodynamics Lecture 5}
+\subtitle{Static electric field (2) }
+\author % (optional, for multiple authors)
+{Yuxuan Zhang }
+\institute[VFU] % (optional)
+{
+  School of Physics \quad
+  Zhejiang University
+}
+
+\date[VLC 2021] % (optional)
+{May 27th 2023}
+\usefonttheme[onlymath]{serif}
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+    \frametitle{目录}
+    \tableofcontents
+\end{frame}
+
+\section{静电场能量密度}
+\begin{frame}
+    \frametitle{静电场能量密度}
+    将连续体系的静电能量$\rightarrow$静电场自身携带的能量$w_e =\frac{1}{2} \epsilon_0 E^2$
+    \\ 中间用一个公式 $\nabla \cdot (\vec{E} V) =  \vec{E}\cdot \nabla V + (\nabla \cdot \vec{E}) V$
+\end{frame}
+
+\section{静电场的边界条件}
+\begin{frame}
+  \frametitle{静电场的边界条件}
+  \begin{itemize}
+    \item   利用电场的散度和旋度推导两个公式：${E_{1\tau}} = {E_{2\tau}}$ ${E_{1n}} - {E_{2n}} = \sigma /\epsilon_0$
+
+    \item 由泊松方程或者拉普拉斯方程，需要再加上好的边界条件，才能唯一地确定解。\\
+  两种常见的可以唯一确定电场的边界条件是给定各个边界上各个点的1.电势的值2.法向偏导数的值\\
+  
+  \item 导体的特点——等势体，内部不含电荷，电荷都分布在表面。\\
+  
+  \item 那么如果有导体的话，上述的可以确定边界的条件额外有：导体的带电总量\\
+  所以如果研究的区域的边界有一个导体面，则这个面上的边界条件可以是：给定导体的带电总量，或者是给定导体的电势（导体是等势体）
+  \\这是电像法的前提和深入理解的基础。
+  \end{itemize}
+\end{frame}
+
+\section{导体的电像法}
+\begin{frame}
+    \frametitle{导体的电像法}
+    \begin{itemize}
+        \item 无限大带电平板
+        \item 导体球+点电荷 \quad 又可以分为 导体球内部，导体球外部，导体球接地，导体球不接地
+    \end{itemize}
+    值得理解的问题是：
+    \begin{itemize}
+        \item 这样的替代的合理性在哪里(没有改变方程，没有改变所研究区域的边界条件)？
+        \item 这样的替代适用的区域是什么？
+        \item 电像有没有可能放置在研究的空间中呢？
+    \end{itemize}
+\end{frame}
+\end{document}

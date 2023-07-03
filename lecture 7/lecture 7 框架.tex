@@ -1,0 +1,59 @@
+\documentclass[10pt]{beamer} 
+%设置为 Beamer 文档类型，设置字体为 10pt，长宽比为16:9，数学字体为 serif 风格
+\usepackage[UTF8]{ctex}
+\usepackage{float}
+% Useful packages
+\usepackage{braket}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{graphicx}
+%Information to be included in the title page:
+\title[About Beamer] %optional
+{Electrodynamics Lecture 7}
+\subtitle{Static magnetic field (2)}
+\author % (optional, for multiple authors)
+{Yuxuan Zhang }
+\institute[VFU] % (optional)
+{
+  School of Physics \quad
+  Zhejiang University
+}
+
+\date[VLC 2021] % (optional)
+{June 2nd 2023}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+    \frametitle{目录}
+    \tableofcontents
+\end{frame}
+
+\section{上一次课程内容的补充}
+\begin{frame}
+    \frametitle{上一次课程内容的补充}
+    \begin{itemize}
+        \item 静电体系在外加的电场下的能量，并由此推导出偶极项对应的能量，发现这和电偶极子的能量是一样的
+    
+    能量 $W = -\vec{p} \cdot \vec{E}$ 受力 $\vec{F}=(\vec{p}\cdot\nabla)\vec{E}$ 这个和$\nabla(\vec{p}\cdot\vec{E})$一样，是因为静电场旋度为0 ，力矩$\vec{N} = \vec{p} \times \vec{E}$
+    \\ 从偶极子定义直接推导能量的思路应该从对坐标原点附近的电势展开开始
+    \item 电场和磁场互相垂直情况下粒子的运动更加详细地介绍，另外的一种对时间直接积分的方法也值得一提。
+\end{itemize}
+\end{frame}
+
+\section{电荷在磁场中受到的力矩——磁矩}
+\begin{frame}
+    \frametitle{电荷在磁场中受到的力矩——磁矩}
+    从带电导线开始，证明公式$\vec{N} = \vec{m} \times \vec{B}$，同时给出定义式$\vec{m} = \int \frac{1}{2}  \vec{r^\prime} \times I \vec{dl^\prime}$ .
+\end{frame}
+
+\section{毕奥萨伐尔定律}
+\begin{frame}
+    \frametitle{毕奥萨伐尔定律}
+    这个定律要注意它适用于稳恒电流，那么就一定是对电流元进行环路积分以后才有实际的意义\\
+    一个违反牛顿第三定律的说明\\
+    几个简单的应用：长直导线、稳恒电流圆环轴上的一点（特殊情况：圆心处）再用B散度为0得到圆心附近处的磁场。
+\end{frame}
+
+\end{document}
